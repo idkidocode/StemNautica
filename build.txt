@@ -1,1 +1,1 @@
-g++ src/main.cpp src/Player.cpp src/Include/Player.hpp -o main -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
+g++ src/main.cpp src/Player.cpp -I src -o main -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
