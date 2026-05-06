@@ -17,7 +17,8 @@ int main(void) {
     SetTargetFPS(60);
     while (!WindowShouldClose()) {
         BeginDrawing();
-            ClearBackground(BG_COLOR);
+            DrawRectangleGradientV(0, 0, GetScreenWidth(), GetScreenHeight(), SKYBLUE, DARKBLUE);
+
 
             plr.Draw();
             plr.Update();
